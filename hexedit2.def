@@ -1,0 +1,7 @@
+NAME HEXEDIT2 WINDOWAPI
+
+DESCRIPTION 'OS/2 PM Hex Editor
+Copyright (c) 1994 Bennett C. Baker and B::Ware
+All rights reserved.'
+
+STACKSIZE 16384

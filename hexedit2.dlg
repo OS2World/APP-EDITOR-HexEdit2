@@ -1,0 +1,235 @@
+DLGINCLUDE 1 "h2resrc.h"
+
+DLGTEMPLATE IDD_DISPLAY LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Display Settings", IDD_DISPLAY, 65, 40, 215, 83, WS_VISIBLE, 
+            FCF_TITLEBAR
+    BEGIN
+        DEFPUSHBUTTON   "OK", DID_OK, 6, 4, 40, 14, WS_GROUP
+        GROUPBOX        "File Offset", 65535, 2, 25, 71, 53
+        AUTORADIOBUTTON "Oc~tal", IDD_DISPLAY_OFFSET_OCTAL, 4, 53, 63, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "De~cimal", IDD_DISPLAY_OFFSET_DECIMAL, 4, 40, 63, 
+                        10
+        AUTORADIOBUTTON "He~xadecimal", IDD_DISPLAY_OFFSET_HEX, 4, 27, 63, 
+                        10
+        GROUPBOX        "Data Format", 65535, 72, 25, 71, 53
+        AUTORADIOBUTTON "~Octal", IDD_DISPLAY_ENTITY_OCTAL, 75, 53, 64, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~Decimal", IDD_DISPLAY_ENTITY_DECIMAL, 75, 40, 64, 
+                        10
+        AUTORADIOBUTTON "~Hexadecimal", IDD_DISPLAY_ENTITY_HEX, 75, 27, 64, 
+                        10
+        GROUPBOX        "Bytes Per Item", 65535, 142, 25, 71, 53
+        AUTORADIOBUTTON "~1 Byte", IDD_DISPLAY_1_BYTE, 150, 53, 54, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~2 Bytes", IDD_DISPLAY_2_BYTE, 150, 40, 54, 10
+        AUTORADIOBUTTON "~4 Bytes", IDD_DISPLAY_4_BYTE, 150, 27, 54, 10
+        PUSHBUTTON      "Cancel", DID_CANCEL, 49, 4, 40, 14, WS_GROUP
+        PUSHBUTTON      "Help", IDD_DISPLAY_HELP, 92, 4, 40, 14, BS_HELP
+    END
+END
+
+DLGTEMPLATE IDD_EDIT_DELETE LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Edit Delete Dialog", IDD_EDIT_DELETE, 51, 58, 231, 45, 
+            WS_VISIBLE, FCF_TITLEBAR
+    BEGIN
+        LTEXT           "Number of Bytes To Delete: ", 65535, 2, 
+                        28, 117, 8
+        ENTRYFIELD      "", IDD_EDIT_DELETE_ENTRY, 121, 28, 45, 8, ES_MARGIN
+        LTEXT           "Display Mode", 65535, 174, 36, 56, 8
+        AUTORADIOBUTTON "~Octal", IDD_DISPLAY_ENTITY_OCTAL, 174, 24, 55, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~Decimal", IDD_DISPLAY_ENTITY_DECIMAL, 174, 12, 55, 
+                        10, WS_TABSTOP
+        AUTORADIOBUTTON "~Hex", IDD_DISPLAY_ENTITY_HEX, 174, 0, 55, 10, 
+                        WS_TABSTOP
+        DEFPUSHBUTTON   "OK", DID_OK, 6, 4, 40, 14
+        PUSHBUTTON      "Cancel", DID_CANCEL, 49, 4, 40, 14
+        PUSHBUTTON      "Help", IDD_EDIT_DELETE_HELP, 92, 4, 40, 14, BS_HELP
+    END
+END
+
+DLGTEMPLATE IDD_EDIT_INSERT LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Edit Insert Dialog", IDD_EDIT_INSERT, 51, 52, 256, 51, 
+            WS_VISIBLE, FCF_TITLEBAR
+    BEGIN
+        LTEXT           "Number of Bytes To Insert: ", 65535, 16, 
+                        38, 117, 8
+        ENTRYFIELD      "", IDD_EDIT_INSERT_ENTRY, 138, 38, 45, 8, ES_MARGIN
+        CONTROL         "", IDD_EDIT_INSERT_VALUE, 191, 36, 48, 12, 
+                        WC_SPINBUTTON, SPBS_ALLCHARACTERS | SPBS_NUMERICONLY | 
+                        SPBS_MASTER | SPBS_SERVANT | SPBS_JUSTDEFAULT | 
+                        SPBS_JUSTRIGHT | SPBS_FASTSPIN | WS_GROUP | 
+                        WS_TABSTOP | WS_VISIBLE
+        LTEXT           "Fill Value", 3405, 194, 25, 39, 8
+        LTEXT           "(decimal)", 3406, 194, 17, 38, 8
+        AUTORADIOBUTTON "~Octal", IDD_DISPLAY_ENTITY_OCTAL, 139, 24, 42, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~Decimal", IDD_DISPLAY_ENTITY_DECIMAL, 139, 12, 42, 
+                        10, WS_TABSTOP
+        AUTORADIOBUTTON "~Hex", IDD_DISPLAY_ENTITY_HEX, 139, 0, 42, 10, 
+                        WS_TABSTOP
+        DEFPUSHBUTTON   "OK", DID_OK, 6, 4, 40, 14
+        PUSHBUTTON      "Cancel", DID_CANCEL, 49, 4, 40, 14
+        PUSHBUTTON      "Help", IDD_EDIT_INSERT_HELP, 92, 4, 40, 14, BS_HELP
+    END
+END
+
+DLGTEMPLATE IDD_FILE_ALLOCATE LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Allocation Dialog", IDD_FILE_ALLOCATE, 76, 58, 206, 45, 
+            WS_VISIBLE, FCF_TITLEBAR
+    BEGIN
+        LTEXT           "Desired Size: ", 65535, 4, 28, 59, 8
+        ENTRYFIELD      "", IDD_FILE_ALLOCATE_ENTRY, 65, 28, 76, 8, 
+                        ES_MARGIN
+        LTEXT           "Display Mode", 65535, 149, 36, 56, 8
+        AUTORADIOBUTTON "~Octal", IDD_DISPLAY_ENTITY_OCTAL, 149, 24, 55, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~Decimal", IDD_DISPLAY_ENTITY_DECIMAL, 149, 12, 55, 
+                        10, WS_TABSTOP
+        AUTORADIOBUTTON "~Hex", IDD_DISPLAY_ENTITY_HEX, 149, 0, 55, 10, 
+                        WS_TABSTOP
+        DEFPUSHBUTTON   "OK", DID_OK, 6, 4, 40, 14
+        PUSHBUTTON      "Cancel", DID_CANCEL, 49, 4, 40, 14
+        PUSHBUTTON      "Help", IDD_FILE_ALLOCATE_HELP, 92, 4, 40, 14, 
+                        BS_HELP
+    END
+END
+
+DLGTEMPLATE IDD_FILE_RESIZE LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Resize Dialog", IDD_FILE_RESIZE, 63, 60, 209, 52, WS_VISIBLE, 
+            FCF_TITLEBAR
+    BEGIN
+        LTEXT           "Initial Size: ", 65535, 5, 39, 73, 8, 
+                        NOT WS_GROUP
+        ENTRYFIELD      "", IDD_FILE_RESIZE_OLD, 58, 39, 76, 8, ES_MARGIN | 
+                        ES_READONLY | NOT WS_TABSTOP
+        LTEXT           "New Size: ", 65535, 5, 24, 73, 8, NOT 
+                        WS_GROUP
+        ENTRYFIELD      "", IDD_FILE_RESIZE_NEW, 58, 24, 76, 8, ES_MARGIN | 
+                        WS_GROUP
+        LTEXT           "Display Mode", 65535, 148, 40, 56, 8
+        AUTORADIOBUTTON "~Octal", IDD_DISPLAY_ENTITY_OCTAL, 148, 28, 55, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~Decimal", IDD_DISPLAY_ENTITY_DECIMAL, 148, 16, 55, 
+                        10, WS_TABSTOP
+        AUTORADIOBUTTON "~Hex", IDD_DISPLAY_ENTITY_HEX, 148, 4, 55, 10, 
+                        WS_TABSTOP
+        DEFPUSHBUTTON   "OK", DID_OK, 6, 4, 40, 14
+        PUSHBUTTON      "Cancel", DID_CANCEL, 49, 4, 40, 14
+        PUSHBUTTON      "Help", IDD_FILE_RESIZE_HELP, 92, 4, 40, 14, BS_HELP
+    END
+END
+
+DLGTEMPLATE IDD_GOTO_OFFSET LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Go To Offset", IDD_GOTO_OFFSET, 76, 58, 206, 45, WS_VISIBLE, 
+            FCF_TITLEBAR
+    BEGIN
+        LTEXT           "Desired Offset: ", 65535, 4, 28, 59, 8
+        ENTRYFIELD      "", IDD_GOTO_OFFSET_OFFSET, 69, 28, 72, 8, ES_MARGIN
+        LTEXT           "Offset Mode", 65535, 149, 36, 56, 8
+        AUTORADIOBUTTON "~Octal", IDD_SEARCH_OCTAL, 149, 24, 55, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~Decimal", IDD_SEARCH_DECIMAL, 149, 12, 55, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~Hex", IDD_SEARCH_HEX, 149, 0, 55, 10, WS_TABSTOP
+        DEFPUSHBUTTON   "OK", DID_OK, 6, 4, 40, 14
+        PUSHBUTTON      "Cancel", DID_CANCEL, 49, 4, 40, 14
+        PUSHBUTTON      "Help", IDD_GOTO_OFFSET_HELP, 92, 4, 40, 14, BS_HELP
+    END
+END
+
+DLGTEMPLATE IDD_REGISTER LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "HexEdit/2 Registration", IDD_REGISTER, 46, 66, 267, 72, 
+            WS_VISIBLE, FCF_SYSMENU | FCF_TITLEBAR
+    BEGIN
+        RTEXT           "User Name", 65535, 4, 55, 74, 8
+        ENTRYFIELD      "", IDD_REGISTER_USERNAME, 83, 55, 176, 8, ES_MARGIN
+        RTEXT           "Serial Number", 65535, 4, 40, 74, 8
+        ENTRYFIELD      "", IDD_REGISTER_USERID, 83, 40, 90, 8, NOT 
+                        ES_AUTOSCROLL | ES_MARGIN | ES_AUTOTAB
+        RTEXT           "Validation Code", 65535, 4, 25, 74, 8
+        ENTRYFIELD      "", IDD_REGISTER_CHECKSUM, 83, 25, 90, 8, NOT 
+                        ES_AUTOSCROLL | ES_MARGIN | ES_AUTOTAB
+        DEFPUSHBUTTON   "OK", DID_OK, 85, 4, 40, 14
+        PUSHBUTTON      "Cancel", DID_CANCEL, 132, 4, 40, 14
+    END
+END
+
+DLGTEMPLATE IDD_REPLACE LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Search and Replace", IDD_REPLACE, 19, 44, 310, 80, WS_VISIBLE, 
+            FCF_TITLEBAR
+    BEGIN
+        LTEXT           "Search String:", 65535, 10, 63, 58, 8, 
+                        NOT WS_GROUP
+        ENTRYFIELD      "", IDD_SEARCH_OLD, 72, 63, 156, 8, ES_MARGIN | 
+                        WS_GROUP
+        LTEXT           "Replace String:", 65535, 5, 38, 61, 8, 
+                        NOT WS_GROUP
+        ENTRYFIELD      "", IDD_REPLACE_NEW, 72, 38, 156, 8, ES_MARGIN
+        GROUPBOX        "Search Type", 65535, 234, 2, 73, 75
+        AUTORADIOBUTTON "~Octal", IDD_SEARCH_OCTAL, 246, 57, 46, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~Decimal", IDD_SEARCH_DECIMAL, 246, 45, 46, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~Hex", IDD_SEARCH_HEX, 246, 33, 46, 10, WS_TABSTOP
+        AUTORADIOBUTTON "~ASCII", IDD_SEARCH_ASCII, 246, 21, 46, 10, 
+                        WS_TABSTOP
+        AUTOCHECKBOX    "~Case Sens.", IDD_SEARCH_CASE_SENS, 242, 5, 59, 10, 
+                        NOT WS_TABSTOP | WS_DISABLED
+        DEFPUSHBUTTON   "OK", DID_OK, 6, 4, 40, 14, WS_GROUP
+        PUSHBUTTON      "Cancel", DID_CANCEL, 49, 4, 40, 14, NOT WS_TABSTOP
+        PUSHBUTTON      "Help", IDD_REPLACE_HELP, 92, 4, 40, 14, BS_HELP
+    END
+END
+
+DLGTEMPLATE IDD_SEARCH LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Search", IDD_SEARCH, 19, 44, 310, 80, WS_VISIBLE, FCF_TITLEBAR
+    BEGIN
+        LTEXT           "Search String:", 65535, 10, 63, 58, 8, 
+                        NOT WS_GROUP
+        ENTRYFIELD      "", IDD_SEARCH_OLD, 72, 63, 156, 8, ES_MARGIN | 
+                        WS_GROUP
+        GROUPBOX        "Search Type", 65535, 234, 2, 73, 75
+        AUTORADIOBUTTON "~Octal", IDD_SEARCH_OCTAL, 246, 57, 46, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~Decimal", IDD_SEARCH_DECIMAL, 246, 45, 46, 10, 
+                        WS_TABSTOP
+        AUTORADIOBUTTON "~Hex", IDD_SEARCH_HEX, 246, 33, 46, 10, WS_TABSTOP
+        AUTORADIOBUTTON "~ASCII", IDD_SEARCH_ASCII, 246, 21, 46, 10, 
+                        WS_TABSTOP
+        AUTOCHECKBOX    "~Case Sens.", IDD_SEARCH_CASE_SENS, 242, 5, 59, 10, 
+                        NOT WS_TABSTOP | WS_DISABLED
+        DEFPUSHBUTTON   "OK", DID_OK, 6, 4, 40, 14, WS_GROUP
+        PUSHBUTTON      "Cancel", DID_CANCEL, 49, 4, 40, 14, NOT WS_TABSTOP
+        PUSHBUTTON      "Help", IDD_SEARCH_HELP, 92, 4, 40, 14, BS_HELP
+    END
+END
+
+DLGTEMPLATE IDD_HELP_ABOUT LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "About HexEdit/2...", IDD_HELP_ABOUT, 58, 31, 238, 101, 
+            WS_VISIBLE, FCF_TITLEBAR
+    BEGIN
+        DEFPUSHBUTTON   "OK", DID_OK, 98, 4, 38, 14
+        CTEXT           "HexEdit/2", 65535, 15, 79, 204, 18, NOT 
+                        WS_GROUP
+                        PRESPARAMS PP_FOREGROUNDCOLOR, 0x00F000F0L
+                        PRESPARAMS PP_FONTNAMESIZE, "24.Helvetica"
+        CTEXT           "version", IDD_HELP_VERSION, 13, 65, 208, 8, NOT 
+                        WS_GROUP
+        CTEXT           "reg to", IDD_HELP_REGTO, 21, 52, 193, 8, NOT 
+                        WS_GROUP
+        CTEXT           "num users", IDD_HELP_NUMUSERS, 21, 41, 193, 8
+        CTEXT           "serial num", IDD_HELP_SERIALNUM, 21, 29, 193, 8
+    END
+END

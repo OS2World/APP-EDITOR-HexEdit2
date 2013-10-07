@@ -1,0 +1,94 @@
+@echo off
+
+::*******************************************************************
+:: 
+::             Copyright (C) 1994 B::Ware and Bennett C. Baker
+:: 
+::                          All rights reserved
+:: 
+::                     Confidential and Proprietary
+:: 
+::      Module:   RELEASE.BTM
+::      Author:   Bennett C. Baker
+::  Compuserve:   70274,3147
+::    Internet:   70274.3147@compuserve.com
+::     Created:   18-Apr-94
+:: 
+:: Description:   Zip up HexEdit/2 sources into a current release.
+::                Also invokes the backup routine.
+:: 
+::        $Log$
+:: 
+::*******************************************************************
+
+::--- Make sure we're running under DOS (the OS/2 version of ZIP will
+::    barf on its command line).
+
+iff %_dos != DOS then
+   echo Sorry, this BTM *MUST* be run under DOS!
+   goto exitall
+endiff
+
+::--- Make sure that we were given an version number
+
+iff "%1" == "" then
+   echo You must specify a version number!
+   goto exitall
+endiff
+
+::--- Make the release directory.
+
+md release\ver%1
+iff not isdir release\ver%1 then
+   echo Unable to create release directory!
+   goto exitall
+endiff
+
+::--- Back up the current set of sources and copy them to the release dir
+
+call backup
+copy backup.zip release\ver%1
+
+::--- Zip up the release into the release directory
+
+zip release\ver%1\hexedit2.zip @release.dat
+
+::--- Write-protect them
+
+attrib +r release\ver%1
+
+::--- Done, exit
+
+goto exitall
+
+
+::+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+::
+::    Routine:
+::
+::Description:
+::
+::       Uses:
+::
+::   Modifies:
+::
+::-------------------------------------------------------------------
+
+rem *******************************************************
+rem *******************************************************
+rem
+rem
+rem
+rem
+
+goto exitall
+
+
+rem *******************************************************
+rem *******************************************************
+rem
+rem	EXITALL
+rem
+rem	Common exit point
+
+:exitall

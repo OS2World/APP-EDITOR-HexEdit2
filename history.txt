@@ -1,0 +1,93 @@
+------------------------------------------------------------------------------
+
+            Copyright (C) 1994 - 1996 Bennett C. Baker and B::Ware
+
+                          All rights reserved
+
+     Module:   HISTORY.TXT
+     Author:   Bennett C. Baker
+ CompuServe:   70274,3147
+   Internet:   bcb@bware.com
+    Created:   31-May-1994
+
+Description:   History of changes to HexEdit/2
+
+------------------------------------------------------------------------------
+
+----------  ----  ------------------------------------------------------------
+   DATE     TYPE  CHANGE
+----------  ----  ------------------------------------------------------------
+
+08-Jan-96   FIX:  REALLY fixed the problem with vertical scroll bar disabled 
+                  with large (>32K lines) files (thanks to user Maurice Hoo)
+
+07-Jan-96   FIX:  Extended Attributes are now preserved in changed files
+                  (thanks to John Poindexter)
+
+06-Jan-96   NEW:  Customized registration screens
+
+03-Jan-96   NEW:  Allow the user to specify the fill value for Edit-Insert
+                  (thanks to user Robert McDowell)
+
+----------  ----  ------------------------------------------------------------
+
+24-Jul-95   REL:  Released version 1.03
+
+----------  ----  ------------------------------------------------------------
+
+17-Jul-95   FIX:  Fixed problem with scroll bar disabled with large files
+
+26-Mar-95   DOC:  Updated snail-mail address, added internet address.  
+                  INICLEAR no longer part of the release.
+
+----------  ----  ------------------------------------------------------------
+
+09-Jun-94   REL:  Released version 1.02
+
+----------  ----  ------------------------------------------------------------
+
+20-Oct-94   NEW:  Added Options/Auto-Resize flag; save & restore the flag
+
+20-Oct-94   NEW:  Added horizontal scroll bar support: removed minimum window
+                  width constraints.
+
+25-Sep-94   NEW:  Save & restore Offset, Display, and Byte Count mode settings
+
+25-Sep-94   DOC:  Extended evaluation period to 30 days
+
+19-Jun-94   NEW:  Added Edit/Insert and Edit/Delete functionality.
+
+----------  ----  ------------------------------------------------------------
+
+09-Jun-94   REL:  Released version 1.01
+
+----------  ----  ------------------------------------------------------------
+
+08-Jun-94   NEW:  Added RESET and APPLY buttons to Font Selection dialog
+
+08-Jun-94   CHG:  Remain in startup subdirectory; no longer move to HEXEDIT/2
+                  executable subdirectory (thanks to user Larry Waibel).
+
+07-Jun-94   NEW:  Added relative GoTo positioning.
+
+04-Jun-94   NEW:  Added INICLEAR.EXE (temporarily!) to the distribution
+                  (thanks to user Michel Slivitsky).
+
+03-Jun-94   CHG:  Save settings in HEXEDIT2.INI file, not OS2.INI file (thanks
+                  to user Larry Waibel).
+
+02-Jun-94   DOC:  Added REGISTER.TXT, registration form, to the standard
+                  distribution.
+
+02-Jun-94   NEW:  Added ReadOnly option to Option menu (thanks to user Geoff
+                  Hendry).
+
+31-May-94   DOC:  Added HISTORY.TXT (this file) to the standard distribution.
+
+31-May-94   NEW:  Added "secondary cursor" to track primary cursor movement in
+                  the alternate edit field (thanks to user Bill Ford).
+----------  ----  ------------------------------------------------------------
+
+27-May-94   REL:  Released version 1.00
+
+----------  ----  ------------------------------------------------------------

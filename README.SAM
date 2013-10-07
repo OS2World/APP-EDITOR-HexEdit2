@@ -1,0 +1,2557 @@
+[ver]
+	4
+[sty]
+	
+[files]
+[charset]
+	82
+	ANSI (Windows, IBM CP 1252)
+[revisions]
+	0
+[recfile]
+	d:\tools\hexedit2\readmtoc.sam
+	
+	1
+	1
+	3
+	12
+	1440
+	1440
+[toc]
+	heading 1
+	
+	
+	.
+	
+	
+	3
+[master]
+	D:\OS2DEV\HEXEDIT2\readmtoc.SAM
+	
+	0
+	0
+	0
+[prn]
+	Generic / Text Only
+[port]
+	FILE:
+[lang]
+	1
+[desc]
+	HexEdit/2 README.TXT file text
+	
+	
+	
+	
+	821159882
+	17
+	770506172
+	202
+	4
+	0
+	0
+	0
+	0
+	
+	
+	
+	
+	
+	
+	1
+[fopts]
+	0
+	1
+	0
+	0
+[lnopts]
+	2
+	Body Text
+	1
+[docopts]
+	5
+	2
+[GramStyle]
+	
+[ParaNum]
+	1
+[tag]
+	Body Text
+	2
+	[fnt]
+		Roman 10cpi
+		240
+		0
+		32768
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Body Text
+	0
+	0
+[tag]
+	Body Single
+	3
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Body Single
+	0
+	0
+[tag]
+	Bullet
+	4
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		0
+		288
+		288
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		<*0>
+		360
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		272
+		1
+		2
+		.
+		,
+		$
+	Bullet
+	0
+	0
+[tag]
+	Bullet 1
+	5
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		288
+		288
+		288
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		<*5>
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Bullet 1
+	0
+	0
+[tag]
+	Number List
+	6
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		360
+		360
+		360
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		<*:>.
+		360
+		1
+		1
+		0
+		16
+		0
+		0
+	[nfmt]
+		272
+		1
+		2
+		.
+		,
+		$
+	Number List
+	0
+	0
+[tag]
+	Subhead
+	7
+	[fnt]
+		Times New Roman
+		240
+		0
+		49155
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		72
+		72
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		2
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		272
+		1
+		2
+		.
+		,
+		$
+	Subhead
+	0
+	0
+[tag]
+	Title
+	8
+	[fnt]
+		Arial
+		360
+		0
+		16385
+	[algn]
+		4
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		446
+		1
+		144
+		72
+		1
+		100
+	[brk]
+		16
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		1
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		272
+		1
+		2
+		.
+		,
+		$
+	Title
+	0
+	0
+[tag]
+	Header
+	9
+	[fnt]
+		Times New Roman
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Header
+	0
+	0
+[tag]
+	Footer
+	11
+	[fnt]
+		Roman 10cpi
+		240
+		0
+		32768
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		0
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Footer
+	0
+	0
+[tag]
+	Normal
+	12
+	[fnt]
+		Roman 10cpi
+		240
+		0
+		32768
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		0
+		1
+		240
+		0
+		1
+		100
+	[brk]
+		32
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Normal
+	11
+	1
+	720
+	1
+	1440
+	1
+	2160
+	1
+	2880
+	1
+	3600
+	1
+	4320
+	1
+	5040
+	1
+	5760
+	1
+	6480
+	1
+	7200
+	1
+	7920
+	0
+[tag]
+	Normal Indent
+	0
+	[fnt]
+		Roman 10cpi
+		200
+		0
+		0
+	[algn]
+		1
+		1
+		720
+		0
+		0
+	[spc]
+		33
+		0
+		1
+		240
+		0
+		1
+		100
+	[brk]
+		32
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Normal Indent
+	11
+	1
+	720
+	1
+	1440
+	1
+	2160
+	1
+	2880
+	1
+	3600
+	1
+	4320
+	1
+	5040
+	1
+	5760
+	1
+	6480
+	1
+	7200
+	1
+	7920
+	0
+[tag]
+	heading 1
+	0
+	[fnt]
+		Roman 10cpi
+		240
+		0
+		32768
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		0
+		1
+		240
+		0
+		1
+		100
+	[brk]
+		48
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	heading 1
+	11
+	1
+	720
+	1
+	1440
+	1
+	2160
+	1
+	2880
+	1
+	3600
+	1
+	4320
+	1
+	5040
+	1
+	5760
+	1
+	6480
+	1
+	7200
+	1
+	7920
+	0
+[tag]
+	heading 2
+	0
+	[fnt]
+		Arial
+		240
+		0
+		1
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		0
+		1
+		160
+		0
+		1
+		100
+	[brk]
+		32
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	heading 2
+	11
+	1
+	720
+	1
+	1440
+	1
+	2160
+	1
+	2880
+	1
+	3600
+	1
+	4320
+	1
+	5040
+	1
+	5760
+	1
+	6480
+	1
+	7200
+	1
+	7920
+	0
+[tag]
+	heading 3
+	0
+	[fnt]
+		Roman 10cpi
+		240
+		0
+		1
+	[algn]
+		1
+		1
+		360
+		0
+		0
+	[spc]
+		33
+		0
+		1
+		240
+		0
+		1
+		100
+	[brk]
+		32
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	heading 3
+	11
+	1
+	720
+	1
+	1440
+	1
+	2160
+	1
+	2880
+	1
+	3600
+	1
+	4320
+	1
+	5040
+	1
+	5760
+	1
+	6480
+	1
+	7200
+	1
+	7920
+	0
+[tag]
+	footer
+	0
+	[fnt]
+		Roman 10cpi
+		200
+		0
+		0
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		0
+		1
+		240
+		0
+		1
+		100
+	[brk]
+		32
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	footer
+	2
+	2
+	5040
+	3
+	10080
+	0
+[tag]
+	TOC1
+	0
+	[fnt]
+		Roman 10cpi
+		240
+		0
+		32768
+	[algn]
+		1
+		1
+		0
+		0
+		360
+	[spc]
+		33
+		432
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		2
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOC1
+	0
+	0
+[tag]
+	TOC2
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		1
+		1
+		0
+		360
+		720
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		3
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOC2
+	0
+	0
+[tag]
+	TOC3
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		1
+		1
+		0
+		720
+		1080
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		4
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOC3
+	0
+	0
+[tag]
+	TOC4
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		1
+		1
+		0
+		1080
+		1440
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		5
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOC4
+	0
+	0
+[tag]
+	TOC5
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		1
+		1
+		0
+		1440
+		1800
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		6
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOC5
+	0
+	0
+[tag]
+	TOC6
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		1
+		1
+		0
+		1800
+		2160
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		7
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOC6
+	0
+	0
+[tag]
+	TOC7
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		1
+		1
+		0
+		2160
+		2520
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		8
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOC7
+	0
+	0
+[tag]
+	TOC8
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		1
+		1
+		0
+		2520
+		2880
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		9
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOC8
+	0
+	0
+[tag]
+	TOC9
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		1
+		1
+		0
+		2880
+		3240
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOC9
+	0
+	0
+[tag]
+	Table Text
+	0
+	[fnt]
+		TimesNewRomanPS
+		240
+		0
+		49152
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Table Text
+	0
+	0
+[tag]
+	TOCPG1
+	0
+	[fnt]
+		Arial
+		280
+		0
+		16385
+	[algn]
+		2
+		1
+		0
+		0
+		0
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		2
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOCPG1
+	0
+	0
+[tag]
+	TOCPG2
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		2
+		1
+		0
+		0
+		0
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		3
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOCPG2
+	0
+	0
+[tag]
+	TOCPG3
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		2
+		1
+		0
+		0
+		0
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		4
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOCPG3
+	0
+	0
+[tag]
+	TOCPG4
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		2
+		1
+		0
+		0
+		0
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		5
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOCPG4
+	0
+	0
+[tag]
+	TOCPG5
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		2
+		1
+		0
+		0
+		0
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		6
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOCPG5
+	0
+	0
+[tag]
+	TOCPG6
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		2
+		1
+		0
+		0
+		0
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		7
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOCPG6
+	0
+	0
+[tag]
+	TOCPG7
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		2
+		1
+		0
+		0
+		0
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		8
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOCPG7
+	0
+	0
+[tag]
+	TOCPG8
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		2
+		1
+		0
+		0
+		0
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		9
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOCPG8
+	0
+	0
+[tag]
+	TOCPG9
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		2
+		1
+		0
+		0
+		0
+	[spc]
+		1
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		0
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		0
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	TOCPG9
+	0
+	0
+[tag]
+	Outline1
+	0
+	[fnt]
+		Arial
+		240
+		0
+		16384
+	[algn]
+		1
+		1
+		0
+		0
+		0
+	[spc]
+		33
+		273
+		1
+		0
+		0
+		1
+		100
+	[brk]
+		4
+	[line]
+		8
+		0
+		1
+		0
+		1
+		1
+		1
+		10
+		10
+		1
+	[spec]
+		0
+		1
+		
+		0
+		1
+		1
+		0
+		0
+		0
+		0
+	[nfmt]
+		280
+		1
+		2
+		.
+		,
+		$
+	Outline1
+	0
+	0
+[lay]
+	Standard
+	513
+	[rght]
+		15840
+		12240
+		1
+		1440
+		1440
+		1
+		1440
+		1440
+		0
+		1
+		0
+		1
+		0
+		2
+		1
+		1440
+		10800
+		12
+		1
+		720
+		1
+		1440
+		1
+		2160
+		1
+		2880
+		1
+		3600
+		1
+		4320
+		1
+		5040
+		1
+		5760
+		1
+		6480
+		1
+		7200
+		1
+		7920
+		1
+		8640
+	[hrght]
+	[lyfrm]
+		1
+		11200
+		0
+		0
+		12240
+		1440
+		0
+		1
+		3
+		1 0 0 0 0 0 0
+		0
+		0
+		1
+	[frmlay]
+		1440
+		12240
+		1
+		1440
+		72
+		1
+		792
+		1440
+		0
+		1
+		0
+		1
+		1
+		0
+		1
+		1440
+		10800
+		2
+		2
+		4680
+		3
+		9360
+	[txt]
+>
+	[frght]
+	[lyfrm]
+		1
+		13248
+		0
+		14400
+		12240
+		15840
+		0
+		1
+		3
+		1 0 0 0 0 0 0
+		0
+		0
+		2
+	[frmlay]
+		15840
+		12240
+		1
+		1440
+		792
+		1
+		14472
+		1440
+		0
+		1
+		0
+		1
+		1
+		0
+		1
+		1440
+		10800
+		2
+		2
+		4680
+		3
+		9360
+	[txt]
+>
+[elay]
+[lay]
+	1
+	519
+	[rght]
+		15840
+		12240
+		1
+		720
+		1008
+		1
+		720
+		1440
+		0
+		1
+		2
+		1
+		0
+		1
+		1
+		720
+		10800
+		13
+		1
+		720
+		1
+		1440
+		1
+		2160
+		1
+		2880
+		1
+		3600
+		1
+		4320
+		1
+		5040
+		1
+		5760
+		1
+		6480
+		1
+		7200
+		1
+		7920
+		1
+		8640
+		1
+		9360
+	[hrght]
+	[lyfrm]
+		1
+		11200
+		0
+		0
+		12240
+		720
+		0
+		1
+		3
+		1 0 0 0 0 0 0
+		0
+		0
+		3
+	[frmlay]
+		720
+		12240
+		1
+		720
+		72
+		1
+		792
+		1440
+		0
+		1
+		0
+		1
+		1
+		0
+		1
+		720
+		10800
+		2
+		2
+		4680
+		3
+		9360
+	[txt]
+>
+	[frght]
+	[lyfrm]
+		1
+		13248
+		0
+		14832
+		12240
+		15840
+		0
+		1
+		3
+		1 0 0 0 0 0 0
+		0
+		0
+		4
+	[frmlay]
+		15840
+		12240
+		1
+		720
+		360
+		1
+		14832
+		1440
+		0
+		1
+		0
+		1
+		1
+		0
+		1
+		720
+		10800
+		2
+		2
+		4680
+		3
+		9360
+	[txt]
+@Footer@<:R1,4,2,5040,2,5040,3,10080,3,10080,>
+
+>
+[elay]
+[l1]
+	1
+[pg]
+	4
+	24 0 5 512 0 0 0 65535 65535 1	65535 0 0	0 0 0 0 0 0 0 65535 0 0 65535 0 0 0 0 0
+	35 133 63 4128 0 0 0 65535 65535 1	65535 0 0	0 0 0 0 0 0 0 65535 0 0 65535 1 0 0 0 0
+	49 63 14 32 0 0 0 65535 65535 1	65535 0 0	0 0 0 0 0 0 0 65535 0 0 65535 1 0 0 0 0
+	58 99 35 1025 0 1 0 65535 65535 1	65535 0 0	0 0 0 0 0 0 0 65535 0 0 65535 1 0 0 0 0
+[edoc]
+@Normal@<:s><:#240,10080>
+
+@Normal@<:s><:#240,10080>
+
+@Normal@<+B><:s><:#240,10080>
+
+@Normal@<+B><:s><:#240,10080>H E X E D I T / 2
+
+@Normal@<+B><:s><:#240,10080>=================
+
+@Normal@<+B><:#240,10080>Version 1.04
+
+@Normal@<+B><:s><:#240,10080>
+
+@Normal@<+B><:s><:#240,10080>An OS/2 Presentation Manager binary file editor.
+
+@Normal@<+B><:s><:#240,10080>
+
+@Normal@<+B><:s><:#240,10080>
+
+@Normal@<+B><:#240,10080>Copyright (c) 1994 - 1996 Bennett C. Baker and B::Ware.
+
+@Normal@<+B><:s><:#240,10080>All rights reserved.
+
+@Normal@<+B><:s><:#240,10080>
+
+@Normal@<:s><:#240,10080>
+
+@Normal@<:s><:#240,10080>
+
+@Normal@<:s><:#240,10080>
+
+@Normal@<:s><:#240,10080>
+
+@Normal@<:s><:#240,10080>
+
+@Normal@<+B><:s><:#240,10080>
+
+@Normal@<+B><:#960,10080>B::Ware<**>75 Greenlodge Street<**>Dedham, MA  02026<**>617-326-4719
+
+@Normal@<+B><:#480,10080>				Compuserve	70274,3147<**>				Internet		bcb@bware.com
+
+@Normal@<:s><:#240,10080>
+
+@Normal@<:#240,10080>
+
+@Normal@<:s><:p<* >><:h<**>
+<:R1,1,2,4680,><:f>
+
+>
+<:f>INTRODUCTION<:h<*.>
+<:s><:R1,2,2,5040,3,10080,>----------------------------------------------------------------------
+
+<:R1,2,2,5040,3,10080,>HexEdit/2 ver. 1.04	README.TXT	Page <:P12,1,>
+
+>
+
+@Normal@<:#1920,10080>Thank you for evaluating HexEdit/2, a shareware OS/2 Presentation Manager binary file editor from B::Ware.  With HexEdit/2, you can view and edit files in single or multibyte octal, decimal, or hexadecimal binary representation.  You can resize an existing 
+file or allocate a new file from scratch, and perform search and replace functions forward or backward through the file.  HexEdit/2 provides a full help system as well as on-line documentation in the VIEW-compatible (.INF) format.
+
+@heading 1@<:s><:#240,10080>LICENSE AGREEMENT
+
+@Normal@<:#960,10080>HexEdit/2 is shareware.  You are free to use the program for a period of 21 days for the purpose of evaluation.  If you decide to continue using the program after the 30 day evaluation period, you must register it.  To register, send $20 (US funds, please) 
+to:
+
+@Normal@<:s><:#960,10080>	B::Ware<**>	75 Greenlodge Street<**>	Dedham, MA  02026<**>	USA
+
+@Normal@<:s><:#2160,10080>You may make copies of this program and distribute them freely, as long as you include all of the files that you originally received with your shareware copy.  When you give a shareware copy of this program to another person, you agree to inform them that t
+heir copy is to be used for a time limited evaluation period, and that they must register their copy if they continue to use the program after the end of the evaluation period.  You may not sell or distribute this program for a fee in excess of media costs 
+and/or shipping charges actually incurred in copying and distributing this program.
+
+@heading 1@<:s><:#240,10080>DISCLAIMER
+
+@Normal@<:#1200,10080>IF USED IMPROPERLY, THIS PROGRAM IS CAPABLE OF DESTROYING ALL DATA ON YOUR COMPUTER SYSTEM.  THIS PROGRAM IS PROVIDED "AS-IS", WITH NO WARRANTY OF MERCHANTABILITY OR FITNESS OF PURPOSE.   IN NO EVENT SHALL B::WARE OR BENNETT C. BAKER BE LIABLE FOR ANY DAMAG
+ES WHATSOEVER ARISING OUT OF USE OF THIS PROGRAM.
+
+@heading 1@<:#240,10080>INSTALLATION
+
+@Normal@<:s><:#240,10080>There are 7 files comprising the HexEdit/2 installation:
+
+@Normal@<:I0,0,0,0><:#1680,10080><**>	HEXEDIT2.EXE	- the executable<**>	HEXEDIT2.HLP	- the on-line help file<**>	HEXEDIT2.INF	- the VIEWable primary documentation file<**>	README.TXT	- the README file (this file)<**>	REGISTER.TXT	- the registration form<**>	HISTORY.TXT	- the program's revi
+sion history<**>	FILE_ID.DIZ	- information for BBS systems
+
+@Normal@<:#720,10080>These files can go just about anywhere, with the caveat that the HEXEDIT2.HLP file should be in either the HEXEDIT2.EXE directory or one of the directories listed in the HELP environment variable.
+
+@heading 1@<:#240,10080>GETTING STARTED
+
+@Normal@<:#480,10080>The primary documentation file is HEXEDIT2.INF, readable with the OS/2 VIEW command.
+
+@Normal@<:#1440,10080>HexEdit/2 can be opened from either the command line or as a WPS Program Object.  From the command line, it will accept a single argument indicating the file to display for edit (additional command line entries are ignored).  As a WPS Program Object, you ca
+n open it either by double-clicking on the Program Object icon or by dragging a Data File Object onto the icon (rudimentary drag-n-drop).
+
+@Normal@<:#720,10080>If you don't want to edit an existing file, you can use the File Allocate and File Resize menus to create a new buffer, which can then be saved with the File Save As command.
+
+@Normal@<:#1440,10080>Buffer display has 3 fields: File Offset, Binary Data, and ASCII data.  You can change the format of the File Offset field to octal, decimal, or hexadecimal.  You can use those same formats for the Binary Data field, and you can also specify how many bytes 
+(1, 2, or 4) are contained in each entity of that field.  Multi-byte displays use little-endian format (like Intel and VAX processors).
+
+@Normal@<:#720,10080>A buffer is normally displayed in Read-Only mode, meaning that you cannot edit it.  To edit a buffer, select Options/ReadOnly to toggle the Read-Only mode flag.
+
+@Normal@<:#1200,10080>You can edit a file in either its Binary or ASCII fields.  In the Binary field, you use the 0-9 and A-F characters appropriate to the selected display mode (for instance, you can't use the hexadecimal A-F characters if the display mode is octal or decimal).
+  In the ASCII field, any typeable character is an editing character.
+
+@Normal@<:s><:#480,10080>You can switch between Binary and ASCII fields with the TAB key, or by positioning the mouse cursor on any character and clicking button 1.
+
+@Normal@<:s><:#720,10080>You can perform Search or Search and Replace operations on data within the buffer.  Both Search and Replace strings can be ASCII strings or sequences of octal, decimal, or hex digits.
+
+@Normal@<:#480,10080>You can also go to a specific file offset (specified in octal, decimal, or hex) within the editing buffer.
+
+@Normal@<:s><:#720,10080>HexEdit/2 allows you to use any of the fixed-pitch fonts available on your OS/2 system, and will save your font selection for subsequent use.
+
+@heading 1@<:R1,1,1,-900,><:#240,10080>SUPPORT
+
+@Normal@<:R><:#720,10080>Support for HexEdit/2 is provided on CompuServe in the OS2SHARE forum (section 1 of the OS2BVEN forum).  Address messages to Bennett C. Baker, 70274,3147.
+
+@Normal@<:#480,10080>Internet users can send E-mail to 70274.3147@compuserve.com or bcb@bware.com.
+
+@heading 1@<:R1,1,1,-900,><:#240,10080>ACKNOWLEDGMENTS
+
+@Normal@<:s><:R><:#240,10080>Thanks to:
+
+@Normal@<:#480,10080>Larry Waibel, who first got me interested in writing a PM binary editor.
+
+@Normal@<:#480,10080>Dave Levitt, who published an extensive feature set wish list (I'm getting there...).
+
+@Normal@<:#480,10080>Guy Scharf, who answered my questions about becoming a vendor on OS2SHARE.
+
+@Normal@<:#480,10080>Special thanks to Rhonda, who put up with me while I was wrestling with the innards of P.M. and the voluminous IBM documentation.
+
+@heading 1@<:s><:#240,10080>ABOUT B::WARE
+
+@Normal@<:#1440,10080>B::Ware is a consulting firm with over 16 years experience in MS-DOS and OS/2 applications and system development, Novell NetWare NLM and driver development, real-time embedded systems hardware and software development, and general telecomm and ISDN protoco
+ls and implementations.  If you think we can help you solve a problem, please contact us at:
+
+@Normal@<:#1440,10080>	B::Ware<**>	75 Greenlodge Street<**>	Dedham, MA  02026<**>	Voice/FAX	 (617)-326-4719<**>	CompuServe 70274,3147<**>	Internet   bcb@bware.ultranet.com
+
+>
+
+[Embedded]
+00022913

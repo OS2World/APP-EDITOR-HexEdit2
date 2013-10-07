@@ -1,0 +1,88 @@
+@echo off
+
+::*******************************************************************
+:: 
+::             Copyright (C) 1994 B::Ware and Bennett C. Baker
+:: 
+::                          All rights reserved
+:: 
+::                     Confidential and Proprietary
+:: 
+::      Module:   BACKUP.BTM
+::      Author:   Bennett C. Baker
+::  Compuserve:   70274,3147
+::    Internet:   70274.3147@compuserve.com
+::     Created:   18-Apr-94
+:: 
+:: Description:   Back up HexEdit/2 sources into backup directory.  Each
+::                backup file has a different name related to date.
+:: 
+::        $Log$
+:: 
+::*******************************************************************
+
+::---  Set for local envvars so as not to overwrite any globals
+
+setlocal
+
+::---  Set up the current date envvar
+
+set _curdate=%@substr[%_date,6,2]%@substr[%_date,0,2]%@substr[%_date,3,2]
+
+::---  Zip up all data files into a backup.zip file
+
+zip -u backup.zip *.*
+
+::--- Create a backup directory if one does not already exist.
+
+if not isdir backup md backup
+
+::--- Copy the backup.zip into the backup directory, changing the name
+::    to the current date.
+
+copy /u backup.zip backup\h2%[_curdate].zip
+
+::--- Copy the backup file onto floppy (or other destination)
+
+iff "%1" == "" then
+   set _dest=a:\
+else
+   set _dest=%1
+endiff
+
+:: --- !!! NO FLOPPY COPY !!!
+REM copy /u worksta.zip %_dest
+
+endlocal
+
+::+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+::
+::    Routine:
+::
+::Description:
+::
+::       Uses:
+::
+::   Modifies:
+::
+::-------------------------------------------------------------------
+
+rem *******************************************************
+rem *******************************************************
+rem
+rem
+rem
+rem
+
+goto exitall
+
+
+rem *******************************************************
+rem *******************************************************
+rem
+rem	EXITALL
+rem
+rem	Common exit point
+
+:exitall
+

@@ -1,0 +1,276 @@
+/********************************************************************
+
+              Copyright (C) 1994 Bennett C. Baker and B::Ware
+
+                          All rights reserved
+
+     Module:   HEXEDIT2.RC
+     Author:   Bennett C. Baker
+     CIS ID:   70274,3147
+    Created:   14 March, 1994
+
+Description:   Main resource file for Hexedit/2, an OS/2 Hex editor.
+               This file incorporates HEXEDIT2.DLG, which is created
+               and maintained by the IBM C/Set++ Dialog Editor, and
+               HEXEDIT2.ICO, which is created and maintained by the
+               C/Set++ Icon Editor.
+
+       $Log$
+
+********************************************************************/
+ 
+#include <os2.h>
+#include "h2resrc.h"
+rcinclude hexedit2.DLG
+
+ICON  RES_CLIENT  HEXEDIT2.ICO
+
+MENU  RES_CLIENT
+{
+   SUBMENU "~File",                             IDM_FILE
+   {
+      MENUITEM "~Open...",                      IDM_FILE_OPEN,          MIS_TEXT
+      MENUITEM "~Save",                         IDM_FILE_SAVE,          MIS_TEXT
+      MENUITEM "Save ~As...",                   IDM_FILE_SAVE_AS,       MIS_TEXT
+      MENUITEM "~Clear",                        IDM_FILE_CLEAR,         MIS_TEXT
+      MENUITEM       SEPARATOR
+      MENUITEM "A~llocate...",                  IDM_FILE_ALLOCATE,      MIS_TEXT
+      MENUITEM "~Resize...",                    IDM_FILE_RESIZE,        MIS_TEXT
+      MENUITEM       SEPARATOR
+      MENUITEM "E~xit",                         IDM_FILE_EXIT,          MIS_TEXT
+   }
+
+   SUBMENU "~Edit",                             IDM_EDIT
+   {
+      /*
+      MENUITEM "~Cut",                          IDM_EDIT_CUT,           MIS_TEXT
+      MENUITEM "C~opy",                         IDM_EDIT_COPY,          MIS_TEXT
+      MENUITEM "~Paste",                        IDM_EDIT_PASTE,         MIS_TEXT
+      MENUITEM       SEPARATOR
+      */
+      MENUITEM "~Insert...",                    IDM_EDIT_INSERT,        MIS_TEXT
+      MENUITEM "~Delete...",                    IDM_EDIT_DELETE,        MIS_TEXT
+   }
+
+   SUBMENU "~Search",                           IDM_SEARCH
+   {
+      MENUITEM "~Search Forward...\tF5",        IDM_SEARCH_FORWARD,     MIS_TEXT
+      MENUITEM "Search ~Backward...\tAlt-F5",   IDM_SEARCH_BACKWARD,    MIS_TEXT
+      MENUITEM "Search ~Again\tShift-F5",       IDM_SEARCH_AGAIN,       MIS_TEXT
+      MENUITEM       SEPARATOR
+      MENUITEM "~Replace Forward...\tF6",       IDM_REPLACE_FORWARD,    MIS_TEXT
+      MENUITEM "Replace Ba~ckward...\tAlt-F6",  IDM_REPLACE_BACKWARD,   MIS_TEXT
+      MENUITEM "Replace A~gain\tShift-F6",      IDM_REPLACE_AGAIN,      MIS_TEXT
+      MENUITEM       SEPARATOR
+      MENUITEM "Go ~To Offset...\tCtrl-G",      IDM_GOTO_OFFSET,        MIS_TEXT
+   }
+
+   SUBMENU "~Options",                          IDM_OPTIONS
+   {
+      MENUITEM "~Font...",                      IDM_OPTIONS_FONT,       MIS_TEXT
+      MENUITEM "~Read Only",                    IDM_OPTIONS_READONLY,   MIS_TEXT,   MIA_CHECKED
+      MENUITEM "~Auto Resize",                  IDM_OPTIONS_AUTORESIZE, MIS_TEXT
+      MENUITEM "Re~Gister...",                  IDM_OPTIONS_REGISTER,   MIS_TEXT
+   }
+
+   MENUITEM "~Display",                         IDM_DISPLAY
+
+/*   SUBMENU "F1=Help",                           IDM_HELP,               MIS_HELP | MIS_BUTTONSEPARATOR
+*/
+   SUBMENU "F1=~Help",                          IDM_HELP,               MIS_HELP | MIS_BUTTONSEPARATOR
+   {
+      MENUITEM "Table of ~contents",            IDM_HELP_CONTENTS,      MIS_HELP
+      MENUITEM "Help ~index",                   IDM_HELP_INDEX,         MIS_HELP
+      MENUITEM "~General help",                 IDM_HELP_GENERAL,       MIS_HELP
+      MENUITEM "~Using help",                   IDM_HELP_USING,         MIS_HELP
+      MENUITEM "~Keys help",                    IDM_HELP_KEYS,          MIS_HELP
+      MENUITEM       SEPARATOR
+      MENUITEM "~About",                        IDM_HELP_ABOUT,         MIS_HELP
+   }
+}
+
+ACCELTABLE  RES_CLIENT
+{
+   /*
+    * SEARCH and REPLACE accelerators
+    */
+
+   VK_F5, IDM_SEARCH_FORWARD,       VIRTUALKEY
+   VK_F5, IDM_SEARCH_BACKWARD,      VIRTUALKEY, ALT
+   VK_F5, IDM_SEARCH_AGAIN,         VIRTUALKEY, SHIFT
+
+   VK_F6, IDM_REPLACE_FORWARD,      VIRTUALKEY
+   VK_F6, IDM_REPLACE_BACKWARD,     VIRTUALKEY, ALT
+   VK_F6, IDM_REPLACE_AGAIN,        VIRTUALKEY, SHIFT
+
+   "g", IDM_GOTO_OFFSET,            CONTROL
+
+   /*
+    * DISPLAY accelerators
+    */
+
+   "t", IDD_DISPLAY_OFFSET_OCTAL,   CONTROL
+   "c", IDD_DISPLAY_OFFSET_DECIMAL, CONTROL
+   "x", IDD_DISPLAY_OFFSET_HEX,     CONTROL
+
+   "o", IDD_DISPLAY_ENTITY_OCTAL,   CONTROL
+   "d", IDD_DISPLAY_ENTITY_DECIMAL, CONTROL
+   "h", IDD_DISPLAY_ENTITY_HEX,     CONTROL
+
+   "1", IDD_DISPLAY_1_BYTE,         CONTROL
+   "2", IDD_DISPLAY_2_BYTE,         CONTROL
+   "4", IDD_DISPLAY_4_BYTE,         CONTROL
+}
+
+/*
+ * String table.  Note that the current maximum string length is 127 characters.
+ */
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+{
+   IDS_ERRERROR            "ERROR"
+   IDS_EDIT                "EDIT"
+   IDS_HELP                "HELP"
+   IDS_SEARCH              "SEARCH"
+   IDS_REPLACE             "REPLACE"
+   IDS_ABANDONQUERY        "Do you want to ABANDON your changes?"
+   IDS_ABANDONTITLE        "Changes Pending!"
+   IDS_HELPWINDOWTITLE     "HexEdit/2 Help"
+   IDS_ERRMEMALLOC         "Memory allocation"
+   IDS_ERRMEMRESIZE        "Memory resize"
+   IDS_ERRREADOPEN         "Read open"
+   IDS_ERRZEROLENFILE      "Zero-length file"
+   IDS_ERRFILEREAD         "File read"
+   IDS_ERRWRITEOPEN        "Write open"
+   IDS_ERRFILEWRITE        "File write"
+   IDS_ERRFILEMSG          "%s error on file "
+   IDS_UNTITLED            "(untitled)"
+   IDS_ERRMEMALLOCSIZE     "Illegal size memory allocation"
+   IDS_ERRMEMALLOCRESIZE   "Illegal size memory resize"
+   IDS_INSERTBADVALUE      "Edit Insert illegal value"
+   IDS_INSERTBADREALLOC    "Edit Insert REALLOC failure!"
+   IDS_DELETEBADVALUE      "Edit Delete illegal value"
+   IDS_DELETEBADREALLOC    "Edit Delete REALLOC failure!"
+   IDS_ERRORHELPCREATE     "Error from WinCreateHelpInstance"
+   IDS_ERRORHELPASSOCIATE  "Error from WinAssociateHelpInstance"
+   IDS_SEARCHFAILED        "Search failed"
+   IDS_SEARCHREPLACEFAILED "Search/Replace search failed"
+   IDS_REPLACEQ            "Replace?"
+   IDS_SEARCHREPLACE       "Search/Replace"
+   IDS_SEARCHREPBADALLOC   "Search/Replace REALLOC failure!"
+   IDS_UNREG               "Unregistered copy"
+   IDS_BADREGTITLE         "Invalid Registration!"
+   IDS_BADREGSTRING        "The registration data is invalid!"
+   IDS_VERSIONSTRING       "Version %d.%1.1d%1.1d - Copyright (c) B::Ware 1994-1996"
+   IDS_REGTO               "Registered to "
+   IDS_NUMUSERS            "for use by no more than %d user(s)"
+   IDS_COMPANYLICENSE      "as a Company License"
+   IDS_SITELICENSE         "as a Site License"
+   IDS_PROJECTLICENSE      "as a Project License"
+   IDS_SERIALNUMBER        "Serial Number "
+}
+
+
+/*
+ *  Help table definition for main window and all dialog boxes
+ */
+
+HELPTABLE      RES_CLIENT
+{
+   HELPITEM    RES_CLIENT,          SUBTABLE_MAIN,       IDP_MAIN_WIN
+   HELPITEM    IDD_FILE_ALLOCATE,   SUBTABLE_ALLOCATE,   IDP_FILE_ALLOCATE_DLG
+   HELPITEM    IDD_FILE_RESIZE,     SUBTABLE_RESIZE,     IDP_FILE_RESIZE_DLG
+   HELPITEM    IDD_EDIT_INSERT,     SUBTABLE_INSERT,     IDP_EDIT_INSERT_DLG
+   HELPITEM    IDD_EDIT_DELETE,     SUBTABLE_DELETE,     IDP_EDIT_DELETE_DLG
+   HELPITEM    IDD_DISPLAY,         SUBTABLE_DISPLAY,    IDP_DISPLAY_DLG
+   HELPITEM    IDD_SEARCH,          SUBTABLE_SEARCH,     IDP_SEARCH_DLG
+   HELPITEM    IDD_REPLACE,         SUBTABLE_REPLACE,    IDP_REPLACE_DLG
+   HELPITEM    IDD_GOTO_OFFSET,     SUBTABLE_GOTO,       IDP_GOTO_OFFSET_DLG
+}
+
+
+/*
+ *  Main window subtable, includes menu item help
+ */
+
+HELPSUBTABLE   SUBTABLE_MAIN
+SUBITEMSIZE    2
+{
+   HELPSUBITEM    IDM_FILE,               IDP_FILE
+   HELPSUBITEM    IDM_FILE_OPEN,          IDP_FILE_OPEN
+   HELPSUBITEM    IDM_FILE_SAVE,          IDP_FILE_SAVE
+   HELPSUBITEM    IDM_FILE_SAVE_AS,       IDP_FILE_SAVE_AS
+   HELPSUBITEM    IDM_FILE_CLEAR,         IDP_FILE_CLEAR
+   HELPSUBITEM    IDM_FILE_ALLOCATE,      IDP_FILE_ALLOCATE
+   HELPSUBITEM    IDM_FILE_RESIZE,        IDP_FILE_RESIZE
+   HELPSUBITEM    IDM_FILE_EXIT,          IDP_FILE_EXIT
+
+   HELPSUBITEM    IDM_EDIT_INSERT,        IDP_EDIT_INSERT
+   HELPSUBITEM    IDM_EDIT_DELETE,        IDP_EDIT_DELETE
+
+   HELPSUBITEM    IDM_SEARCH,             IDP_SEARCH
+   HELPSUBITEM    IDM_SEARCH_FORWARD,     IDP_SEARCH_SELECTIONS
+   HELPSUBITEM    IDM_SEARCH_BACKWARD,    IDP_SEARCH_SELECTIONS
+   HELPSUBITEM    IDM_SEARCH_AGAIN,       IDP_SEARCH_SELECTIONS
+   HELPSUBITEM    IDM_REPLACE_FORWARD,    IDP_REPLACE_SELECTIONS
+   HELPSUBITEM    IDM_REPLACE_BACKWARD,   IDP_REPLACE_SELECTIONS
+   HELPSUBITEM    IDM_REPLACE_AGAIN,      IDP_REPLACE_SELECTIONS
+   HELPSUBITEM    IDM_GOTO_OFFSET,        IDP_GOTO_OFFSET
+
+   HELPSUBITEM    IDM_OPTIONS,            IDP_OPTIONS
+   HELPSUBITEM    IDM_OPTIONS_FONT,       IDP_OPTIONS_FONT
+   HELPSUBITEM    IDM_OPTIONS_READONLY,   IDP_OPTIONS_READONLY
+   HELPSUBITEM    IDM_OPTIONS_AUTORESIZE, IDP_OPTIONS_AUTORESIZE
+   HELPSUBITEM    IDM_OPTIONS_REGISTER,   IDP_OPTIONS_REGISTER
+
+   HELPSUBITEM    IDM_DISPLAY,            IDP_DISPLAY
+
+   HELPSUBITEM    IDM_HELP,               IDP_HELP
+   HELPSUBITEM    IDM_HELP_CONTENTS,      IDP_HELP_CONTENTS
+   HELPSUBITEM    IDM_HELP_INDEX,         IDP_HELP_INDEX
+   HELPSUBITEM    IDM_HELP_GENERAL,       IDP_HELP_GENERAL
+   HELPSUBITEM    IDM_HELP_USING,         IDP_HELP_USING
+   HELPSUBITEM    IDM_HELP_KEYS,          IDP_HELP_KEYS
+   HELPSUBITEM    IDM_HELP_ABOUT,         IDP_HELP_ABOUT
+}
+
+
+HELPSUBTABLE   SUBTABLE_ALLOCATE
+SUBITEMSIZE    2
+{
+}
+
+HELPSUBTABLE   SUBTABLE_RESIZE
+SUBITEMSIZE    2
+{
+}
+
+HELPSUBTABLE   SUBTABLE_INSERT
+SUBITEMSIZE    2
+{
+}
+
+HELPSUBTABLE   SUBTABLE_DELETE
+SUBITEMSIZE    2
+{
+}
+
+HELPSUBTABLE   SUBTABLE_DISPLAY
+SUBITEMSIZE    2
+{
+}
+
+HELPSUBTABLE   SUBTABLE_SEARCH
+SUBITEMSIZE    2
+{
+}
+
+HELPSUBTABLE   SUBTABLE_REPLACE
+SUBITEMSIZE    2
+{
+}
+
+HELPSUBTABLE   SUBTABLE_GOTO
+SUBITEMSIZE    2
+{
+}
